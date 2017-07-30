@@ -6,7 +6,7 @@ sudo -H pip install shadowsocks
 cd ~
 config_file='shadowsocks/config.json'
 config_file_path=`dirname $config_file`
-mkdir -p $config_file_path && echo \
+mkdir -p $config_file_path && echo -e \
 '{\n'                                   \
 '    "server":"0.0.0.0",\n'             \
 '    "server_port":6666,\n'             \
