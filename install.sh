@@ -1,6 +1,6 @@
 # install
 sudo apt-get update && sudo apt-get install -y python python-pip
-pip install shadowsocks
+sudo pip install shadowsocks
 
 # config
 cd ~
