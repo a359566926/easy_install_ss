@@ -5,7 +5,7 @@ TO CHECK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 install and generate config files:
 
-sh | curl -sS https://raw.githubusercontent.com/a359566926/easy_install_ss/master/install.sh
+curl -sS https://raw.githubusercontent.com/a359566926/easy_install_ss/master/install.sh | sudo bash
 
 start shadowsocks:
 
